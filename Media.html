@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerful Message</title>
+    <style>
+        body {
+            background-color: rgb(189, 228, 238);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .bio {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        video, audio {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        picture img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Elijah's story</h1>
+
+    <div class="bio">
+        <p>Elijah has always loved to be a Computer Engineer, but after secondary school he went ahead to study Chemical/Petrochemical Engineering due to pressure from Dad. That caused a sense of unfufillment.</p>
+
+          <picture>
+            <source
+             media="(min-width: 800px)"
+             srcset="./Elijah 480px.jpg 480w,
+                     ./Elijah 800px.jpg 800w,
+                     ./Elijah.jpg 1024w"
+             sizes="33.3vw">
+            <source
+             srcset="/Elijah 800px.jpg 2x,
+                     /Elijah 480px.jpg 1x">
+            <img src="./Elijah.jpg" alt="Picture of Elijah">
+           </picture>
+
+        <p>After graduating and working in the Petrochemical field for while without fufillment. So he set out to chase his passion by being a Front-End Engineer; and AltSchool is where the chase-journey begins.</p>
+
+        <video controls poster="./Elijah's video thumbnail.jpg">
+            <source src="./Elijah's story.mp4" type="video/mp4">
+            <source src="./Elijahs story.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <p>A short video of Me 😁.</p>
+
+        <audio controls>
+            <source src="./Elijahs voice.mp3" type="audio/mp3" >
+            <source src="./Elijah's voice.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>An audio that depicts what I sound like when I talk🤭.</p>
+    </div>
+    <div class="scroll-top">
+        <a href="#top">Back to Top</a> |
+        <a href="Table.html">AltSchool Schools and Courses</a> |
+    
+</body>
+</html>
